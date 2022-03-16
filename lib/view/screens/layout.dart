@@ -40,6 +40,7 @@ class _LayoutScreenState extends State<LayoutScreen> {
         cubit.taskDetailsController.text = '';
         cubit.taskDateController.text = '';
         cubit.taskTimeController.text = '';
+        // try get by id
 //        cubit.getTasksByListId(cubit.lists[currentTab]['id']);
         Navigator.pop(context);
       }
